@@ -7,8 +7,7 @@ CREATE TABLE departments(
    department_name VARCHAR(50)
 );
 
-INSERT INTO departments 
-VALUES
+INSERT INTO departments VALUES
 (1,'IT'),
 (2,'HR'),
 (3,'Marketing'),
@@ -27,8 +26,7 @@ CREATE TABLE employees(
    REFERENCES departments(department_id)
 );
 
-INSERT INTO employees 
-VALUES
+INSERT INTO employees VALUES
 (1,'Nguyen Van An','Male',15000000,'2024-03-15',1),
 (2,'Tran Thi Binh','Female',12000000,'2023-08-10',2),
 (3,'Le Van Cuong','Male',18000000,'2025-01-20',1),
